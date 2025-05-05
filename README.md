@@ -1,16 +1,58 @@
-# bloc
+# Counter App using BLoC
 
-A new Flutter project.
+A simple Flutter application demonstrating the fundamentals of BLoC (Business Logic Component) architecture using Cubit for state management.
 
-## Getting Started
+## 📚 Concepts Covered
 
-This project is a starting point for a Flutter application.
+This project showcases the following key concepts of the BLoC pattern:
 
-A few resources to get you started if this is your first Flutter project:
+**Cubit** — A simplified version of BLoC for managing state.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**BlocProvider** — Provides and manages the lifecycle of a Cubit instance to the widget tree.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**BlocListener** — Reacts to state changes by executing side effects (like showing dialogs).
+
+**BlocBuilder** — Rebuilds the UI in response to state changes.
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+Flutter SDK
+
+Dart SDK (comes with Flutter)
+
+### Installation
+Clone the repository:
+
+`git clone https://github.com/your-username/counter_bloc_app.git
+cd counter_bloc_app`
+
+### Install dependencies:
+
+`flutter pub get`
+
+### Run the app:
+
+`flutter run`
+
+## 🚀 App Overview
+
+This simple counter app allows you to increment and decrement a counter value. The UI updates reactively based on the counter state.
+Additionally, when the counter reaches 10 or 0, an alert dialog is shown to notify the user.
+
+### Home Screen
+
+<img src=img.png alt="Home" width="250" height="400" />
+
+## 📝 Project Structure
+
+lib/
+├── counter/
+│   ├── counter_cubit.dart
+│   ├── counter_page.dart
+│   └── counter_view.dart
+├── main.dart
+
