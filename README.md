@@ -49,10 +49,10 @@ Additionally, when the counter reaches 10 or 0, an alert dialog is shown to noti
 
 ## 📝 Project Structure
 
+```
 lib/
 ├── counter/
 │   ├── counter_cubit.dart
 │   ├── counter_page.dart
 │   └── counter_view.dart
 ├── main.dart
-
