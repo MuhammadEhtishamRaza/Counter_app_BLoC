@@ -27,16 +27,22 @@ Dart SDK (comes with Flutter)
 ### Installation
 Clone the repository:
 
-`git clone https://github.com/your-username/counter_bloc_app.git
-cd counter_bloc_app`
+```
+git clone https://github.com/MuhammadEhtishamRaza/Counter_app_BLoC.git
+cd counter_bloc_app
+```
 
 ### Install dependencies:
 
-`flutter pub get`
+```
+flutter pub get
+```
 
 ### Run the app:
 
-`flutter run`
+```
+flutter run
+```
 
 ## 🚀 App Overview
 
@@ -44,8 +50,12 @@ This simple counter app allows you to increment and decrement a counter value. T
 Additionally, when the counter reaches 10 or 0, an alert dialog is shown to notify the user.
 
 ### Home Screen
+<div class="flex">
+<img src=img.png alt="Home" width="220" height="400" />
+<img src="https://github.com/user-attachments/assets/73ccd093-0773-49df-ab7b-1075c01fd24e" alt="Dialog" width="220" height="400"/>
+<img src="https://github.com/user-attachments/assets/c1ece869-fc91-4d89-b010-37a2492f106c" alt="Dialog" width="220" height="400"/>
+</div>
 
-<img src=img.png alt="Home" width="250" height="400" />
 
 ## 📝 Project Structure
 
